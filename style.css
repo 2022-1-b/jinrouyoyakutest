@@ -1,0 +1,31 @@
+@charset "UTF-8";
+p{
+  font-family: 'Noto Serif JP', serif;
+}
+h1{
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-family: 'Noto Serif JP', serif;
+}
+h2{
+  font-family: 'Noto Serif JP', serif;
+}
+.top{
+  padding: 50px 5% 30px 5%;
+}
+.second{
+  padding: 20px 5% 30px 5%;
+}
+.second h2{
+  text-align: center;
+  margin-bottom: 45px;
+}
+footer{
+  background: #a14242;
+  text-align: center;
+  padding: 26px; 0;
+}
+footer p{
+  color: #ee2244;
+  font-size: 0.875rem;
+  font-family: 'STIX Two Math', serif;
+}
