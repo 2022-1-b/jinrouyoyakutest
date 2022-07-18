@@ -1,4 +1,8 @@
 @charset "UTF-8";
+html,　body {
+  height: 100%;
+  flex-wrap: wrap;
+}
 p{
   font-family: 'Noto Serif JP', serif;
 }
@@ -19,13 +23,46 @@ h2{
   text-align: center;
   margin-bottom: 45px;
 }
+.aform{
+  height: 1308px;
+}
 footer{
   background: #a14242;
   text-align: center;
   padding: 26px; 0;
 }
 footer p{
-  color: #ee2244;
+  color: #e24;
   font-size: 0.875rem;
-  font-family: 'STIX Two Math', serif;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+@media (max-width:1000px) {
+  .aform{
+    height: 1308px;
+  }
+}
+
+@media (max-width:800px) {
+  .aform{
+    height: 1344px;
+  }
+}
+
+@media (max-width:600px) {
+  .aform{
+    height: 1505px;
+  }
+}
+
+@media (max-width:400px) {
+  .aform{
+    height: 1556px;
+  }
+}
+
+@media (max-width:374px) {
+  .aform{
+    height: 1654px;
+  }
 }
